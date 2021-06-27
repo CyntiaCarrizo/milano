@@ -1,0 +1,366 @@
+*por secciones*/
+
+/*pagina principal*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+	/*menu cuenta extra*/
+
+			body {
+				background-color: white;
+				
+			}
+
+			.iconos {
+				display: inline-block;
+				width: 25px;
+				height: 20px;
+				margin-right: 5px;
+                
+              
+			}
+
+           	.menu1{
+				   background-color: #F2AC29;
+				   margin: 0;
+				   padding: 0;
+				   width: 100%;
+				   height: auto;
+			   }
+
+			.menu1 li{
+				list-style-type: none;
+				margin: 0px;
+              
+				font-family: 'Bangers', cursive;
+				font-size: 20px;
+               	 display: inline-block;
+               
+			}
+			
+			.menu1 li a {
+				color: white;
+				text-decoration: none;
+				display: block;
+				padding: 10px;
+			}
+
+			.menu1 li a:hover {
+				background-color: #F2E422;
+			}
+
+
+			
+			.cuentas li {
+				list-style-type: none;
+                
+				font-size: 20px;
+				padding: 0;
+				margin: 10px;
+				font-family: 'Bangers', cursive;
+               			 float: right;
+				
+			}
+
+			.cuentas li a {
+				text-decoration: none;
+				color:#F2AC29;
+				text-shadow: 2px 2px 2px black;
+			}
+			
+			.titulo li {
+				list-style-type: none;
+				
+			}
+			
+			h1 {
+				color: #F2AC29;
+				font-size: 50px;
+				font-family: 'Fontdiner Swanky', cursive;
+				letter-spacing: 5px;
+				word-spacing: 10px;
+				padding: 0;
+				margin: 0px;
+				text-shadow: 2px 2px 2px black ;
+				
+
+			}
+			 
+
+	/*menu navegacion*/
+
+
+			.background {
+				width: 100%;
+				height: 100%;
+				background-image: url(../imagenes/BullerPicada-1-copia.jpg);
+				background-size: 300px 150px;	
+			
+			}
+
+           	.nav {
+				   background-color: #F2AC29;
+				   margin: 0;
+				   padding: 0;
+				   width: 100%;
+				   height: auto;
+			   }
+			.nav li {
+				display: inline-block;
+				font-size: 30px;
+				font-family: 'Bangers', cursive;
+				list-style-type: none;
+			
+			}
+
+			.nav li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 25px;
+				text-decoration: none;
+				
+			}
+
+			.nav li a:hover {
+				background-color: #F2E422;
+			}
+
+		
+
+	/*categorias principales*/
+
+
+           	 .imgCenter{
+               	 display: block;
+                margin-left: auto;
+               	 margin-right: auto;
+               	 width: 50%;
+          
+        	 }        
+
+			h2 {
+				color: white;
+				font-size: 45px;
+				text-align: center;
+				font-family: 'Fontdiner Swanky', cursive;
+				background-color: #F2AC29;
+				letter-spacing: 5px;
+				word-spacing: 10px;
+				margin: 0px 0px;
+				width: 100%;
+		
+			}
+		
+			.categorias {
+				font-family: 'Bangers', cursive;
+				font-size: 25px;
+				padding: 50px 0px;
+				margin: 0px 50px;
+	
+			}
+
+    
+
+			.categorias  a {
+                
+				text-decoration: none;
+				display: inline-block;	
+				color: #F2AC29;
+				padding: 0px 60px;
+                		margin: 0px 10px;
+				font-size: 30px;
+				text-align: center;
+				background-color: #F2E422;
+				border-radius: 10px;
+				text-shadow: 2px 2px 2px black;
+			}
+
+			button {
+				display: inline-block;
+				padding: 15px 25px;
+				font-size: 15px;
+				cursor: pointer;
+				text-align: center;	
+				outline: none;
+				background-color: #F2E422;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px rgb(242, 172, 41);
+				margin-bottom: 20px;
+			}
+
+			button a {
+				text-decoration: none;
+				text-shadow: 2px 2px 2px black;
+				color: #F2AC29;
+				font-family: 'Bangers', cursive;
+				letter-spacing: 2px;
+				word-spacing: 3px;
+			}
+			.center {
+				text-align: center;
+               			 display: inline-block;
+                		margin: 25px 40px;
+			}
+       		
+		
+	/*pie de pagina*/
+
+
+
+			footer{
+				background-color: #F2AC29;
+				width: 100%;
+				margin: 20px 0px;
+			}
+
+			p {
+				color: white;
+				font-size: 18px;
+				font-family: 'Bangers', cursive;
+				margin: 5px 0px;
+				padding: 10px;
+				letter-spacing: 2px;
+				word-spacing: 3px;
+           
+			}
+
+
+			.logo {
+				width: 35px;
+				height: 20px;
+				display: inline-block;
+			}
+
+	
+/*pagina productos*/
+
+	/*seccion ventas de productos*/
+
+
+			figcaption {
+				text-align: center;
+				line-height: 30px;
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				font-weight: bold;
+
+			}
+
+		
+
+			h3 {
+               	 font-family: 'Bangers', cursive;
+				text-align: center;
+				font-size: 30px;
+				color: #F2AC29;
+        		 text-shadow: 2px 2px 2px black;
+                letter-spacing: 5px;
+				word-spacing: 10px;
+			}
+
+	
+			.ventas {
+				display: inline-block;
+				margin: 10px 15px;
+				padding: 10px 5px;
+						
+        		}
+
+
+        	.ventas > :hover {
+            	box-shadow: 5px 5px 5px grey;
+          	 }
+			
+
+			div .polaroid {
+				width: 100%;
+				padding: 10px 5px;
+				background-color: white;
+				
+			}
+			
+			.ventas img {
+				width: 100%
+			}
+
+			div.ventas {
+				text-align: center;
+
+			}
+
+			.clasificacion {
+		
+				border: 3px solid black;
+				width: 50%;
+				text-align: center;
+
+			}
+
+
+			table {
+				width: 100%;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+				font-family: 'Bangers', cursive;
+				letter-spacing: 2px;
+				word-spacing: 10px;
+			}
+	
+		
+/*pagina crear cuenta*/
+
+			.cuenta {
+				color: black;
+				font-size: 25px;
+				text-align: center;
+				margin: 15px 0px;
+			}
+
+			label {
+				font-size: 20px;
+				font-family: Arial, Helvetica, sans-serif
+				
+			}
+
+			input {
+				border: 1px solid;
+				font-size: 120%;
+				padding: 5px;
+				margin: 10px;
+			
+			}
+
+			.tituloCuenta {
+				margin: 20px 0px;
+				color: white;
+
+			}
+
+			.submit {
+				width: 180px;
+				height:35px;
+				border: 1px solid black;
+				margin-top:20px;
+				cursor:pointer;	
+			}
+
+/*pagina contacto*/
+
+			textarea {
+				border: 1px solid;
+				width: 7cm;
+				height: 5cm;
+				font-size: 20px;
+
+			}
+
+           	 .formulario  {
+              	 text-align: center;
+          	  }
