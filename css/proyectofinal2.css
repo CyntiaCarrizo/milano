@@ -13,6 +13,10 @@
 
 	/*menu cuenta extra*/
 
+			a {
+				text-decoration: none;
+			}
+
 			body {
 				background-color: white;
 				
