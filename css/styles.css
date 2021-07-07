@@ -43,6 +43,7 @@
 				margin: 0px;
 				font-family: 'Bangers', cursive;
 				font-size: 20px;
+				/*display: inline-block;*/
 			}
 			
 			.menu1 li a {
@@ -256,7 +257,7 @@
 		
 			.categorias {
 				font-family: 'Bangers', cursive;
-				font-size: 25px;
+				font-size: 30px;
 				padding: 50px;
 				margin: 0px 0px;
 				display: flex;
@@ -271,7 +272,7 @@
 				display: block;	
 				color: #f2ac29;
 				padding: 0px 60px;
-				font-size: 30px;
+			
 				text-align: center;
 				background-color: #F2E422;
 				border-radius: 10px;
@@ -338,10 +339,10 @@
 			.grid .redes {
 				grid-column-start: 3;
 				grid-column-end: 4;
-		/*		display: flex;
+			display: flex;
 				flex-direction: wrap;
 				flex-wrap: nowrap;
-				justify-content: center;*/ /*quisiera ponerlo en el centro pero no me lo toma*/
+				justify-content: center;
 			}
 
 			.grid .nosotros{
@@ -656,7 +657,7 @@
 
 			@media only screen and (max-width:400px)
 
-			{
+		/*	{
 			body {background-color: aqua;}
 			header .menu1 {
 							display: flex;
@@ -673,20 +674,182 @@
 				height: 15px;
 				margin-right: 5px;
 			}
+
+			header .cuentas {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: flex-end;
+			}
 			.cuentas li {font-size: 10px;	
 			}
 
-			/*.titulo {display: grid;
-						grid-template-columns: 400px;
-						grid-template-rows: 500px 300px;
+			.titulo {display: grid;
+						align-items: center;
+						justify-items: center;
+						grid-template-columns: 100%;
+						grid-template-rows: 150px auto;
 						grid-template-areas: logo 
 											h1;}
-						.logo {
+						.logo2 {
 							grid-area: logo;
+							width: 125px;
+							height: 125px;
 						}
 						.h1 {
 							grid-area: h1;
-						}*/
+							font-size: 25px;
+							text-align: center;
+						}
+
+			.navegacion{
+			
+				margin: 0px;
+				padding: 0px;
+				background-color: #F2AC29;
+				width: 100%;
+				height: 35px;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+						
+							}
+
+			.nav li {
+				font-size: 13px;
+			}
+
+			.nav li a {
+				padding: 10px;
+			}
+
+			.sleider {
+				width: 100%;
+				height: 200px;
+			}
+
+			.sleider input[type="radio"]+label{
+				margin: 15px;
+				width: 15px;
+				height: 15px;		
+			}
+
+			h2 {
+				font-size: 20px;
+			}
+
+			.categorias {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				font-size: 15px;
+				padding: 10px;
+				margin: 0px 0px;	
+				padding: 10px;
+				
+				
+			}
+
+			.categorias a {
+					padding: 0px 5px;
+					border-radius: 5px;
+					text-shadow: 2px 2px 2px black;
+				
+			}
+			
+			.Ventas {
+				display: grid;
+				grid-template-columns: 25% 25% 25% 25% ;
+				grid-template-rows: auto;
 
 			}
 
+			figcaption {
+				font-size: 10px;
+				line-height: 10px;
+			}
+
+			button {
+				padding: 3px 6px;
+				font-size: 6px;
+				border-radius: 3px;
+				box-shadow: 0 4px rgb(242, 172, 41);
+				margin-bottom: 4px;
+			}
+
+			button a {
+				text-shadow: 1px 1px 1px black;
+				letter-spacing: 0.5px;
+				word-spacing: 1px;
+			}
+			.image1 {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: space-between;
+				align-items: center;
+		}
+
+		.center img{
+			width: 50px;
+		}
+
+		.image1{
+			height: 80px;
+		}
+		p {
+			font-size: 9px;	
+			margin: 2px 0px;
+			padding: 5px;
+			letter-spacing: 1px;
+			word-spacing: 1.5px;
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: repeat(4, auto);
+		
+		}
+
+		.grid .news {
+		grid-column-start: 1;
+			grid-column-end: 4;
+		}
+
+		.grid .pagos {
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}*/
+
+	/*	.grid .redes {
+			grid-column-start: 3;
+			grid-column-end: 4;
+		display: flex;
+			flex-direction: wrap;
+			flex-wrap: nowrap;
+			justify-content: center;
+		}
+
+		.grid .nosotros{
+		
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+
+		.grid .derechos {
+			grid-column-start: 1;
+			grid-column-end: 4;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			
+		}
+		.logo{
+			width: 25px;
+			height: 10px;
+		}
+		}*/
