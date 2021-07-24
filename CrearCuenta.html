@@ -6,14 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Condiment&family=Dynalight&family=Fontdiner+Swanky&family=Molle:ital@1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_.css">
 	
 
 </head>
@@ -22,43 +25,84 @@
 
 <body > 
 
-	<div class="contenedor"> 
-		<header>
+  <!--=========================================================================-->
+            <!--MENU HEADER-->   
+     <!--==========================================================================-->       
+ 
+   
+     <header class="container-fluid">
+		<div class="row">
+		  <div class="  d-flex justify-content-center bg-warning">
 			
-			<ul class="menu1">
-				<li><a href=""><img src="imagenes/combos/iconos/location-outline.svg" alt="logo" class="iconos"> Sucursales</a></li>
-				<li><a href=""><img src="imagenes/combos/iconos/call-outline.svg" alt="logo" class="iconos"> 03815864875</a></li>
-				<li><a href=""><img src="imagenes/combos/iconos/logo-whatsapp.svg" alt="logo" class="iconos"> 03815964857</a></li>
-				<li><a href=""><img src="imagenes/combos/iconos/chatbubble-ellipses-outline.svg" alt="logo" class="iconos"> Atencion al Cliente</a></li>
-			</ul>
-				
-					<ul class="cuentas">
-						<li><a href="CrearCuenta.html" >Crear Cuenta</a></li>
-						<li><a href="#" >Iniciar Sesiòn</a></li>
-					</ul>
+				  <div class=" col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono fas fa-map-marker-alt"> Sucursales</i></a>
+				  </div>
+				  <div class="col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class=" menu1__icono fas fa-phone"> 03815864875</i></a>
+				  </div>
+				  <div class=" col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono fab fa-whatsapp"> 03815964857</i></a>
+				  </div>
+				  <div class="col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono far fa-comment-dots"> At. al Cliente</i></a>
+				  </div>
+		  </div>
+	   </div>
+ 
+		  <div class="container">
+					<div class=" row justify-content-end  ">
+						
+						<div class="col-3 col-sm-3 cuentas ">
+							  <a href="CrearCuenta.html" class="cuentas__enlace">Crear Cuenta</a>
+						</div>
+						<div class="col-3 col-sm-3 cuentas">
+							  <a href="#" class="cuentas__enlace" >Iniciar Sesiòn</a>
+						</div>
+					</div>
+		  </div>
+		  <div class="container-fluid">
+					<div class="row justify-content-start align-items-center">
+						  <div class="col-4">
+							<img src="imagenes/logoo.jpg" alt="logo" width="150" height="150" class="logo2" >
+						  </div> 
+						
+							<div class="col-8">
+							  <h1 class="h1 text-center">Milano <br> <span class="fs-6 text-center"> Cheers & Beers</span></h1>
+							</div>  
+					</div>
+		  </div>          
+</header>
+<!--=========================================================================-->
+	  <!--BARRA DE NAVEGACION RESPONSIVE -->   
+<!--==========================================================================-->       
+	  <nav class="navbar navbar-expand-lg navbar-light bg-warning mb-2" id="menu">
+		  <div class="container-fluid ">
+			<a class="navbar-brand" href="index.html">Inicio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  
+					  <li class="nav-item">
+						  <a class="nav-link" href="producto.html">Productos</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="Contacto.html" tabindex="-1" aria-disabled="true">Compras
+							  Mayoristas</a>
+					  </li>
+				  </ul>
+				  <form class="d-flex">
+					  <input class="form-control me-2" type="search" placeholder="Nombre Producto"
+						  aria-label="Search">
+					  <button class="btn " type="submit">Buscar</button>
+				  </form>
+				  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i
+						  class="fas fa-shopping-cart"></i> Mi Carrito</a>
 
-					<ul class="titulo">
-						<li><img src="imagenes/logoo.jpg" alt="logo" width="250" height="250" class="logo2" ></li>
-						<li><h1 class="h1 wow animate__flipInX ">Milano <br>Cheers & Beers</h1></li>
-					</ul>					
-		</header>
-
-	<!--menu navegacion-->
-
-		<nav>
-			<div class="navegacion">
-				<ul class="nav">
-					<li><a href="index.html" >Inicio</a></li>
-					<li><a href="producto.html" >Productos</a></li>
-					<li><a href="Contacto.html" >Compras Mayoristas</a></li>
-				</ul>
-				<ul class="nav">
-					<li><a href="" > Buscar</a></li>
-					<li><a href="" >Mi Carrito</a></li>
-					</ul>	
-			</div>	
-		</nav>
-
+			  </div>
+		  </div>
+	  </nav>
 <!--formulario Crear Cuenta-->
 	
 
@@ -122,31 +166,50 @@
 
 		<!--pie de pagina-->
 		<footer>
-			<div class="grid">
-				<div class="news">
+			<div class="row ">
+				<div class="col-12 text-center">
 					<p>RECIBI NUESTRAS OFERTAS <br>Suscribite a nuestro Newsletter</p>
 				</div>
-				<div class="pagos">
+				<div class="row">
+				<div class="col-6">
 					<p>MEDIOS DE PAGO <br>Efectivo, Tarjetas de Crèdito y Dèbito, Codigo QR, Mercado Pago <br>todas las tarjetas hasta 12 cuotas sin intères (depende las promociones de Mercado Pago)</p>
 				</div>	
-				<div class="resdes">	
-					<p> Siguenos en nuestras redes</p></li>
-					<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><img src="imagenes/combos/iconos/logo-twitter.svg" alt="logo" class="logo" ></a>
-					<a href="https://www.facebook.com/cyntia.gisel/" target="_blank" ><img src="imagenes/combos/iconos/logo-facebook.svg" alt="logo" class="logo"></a>
+				<div class="col-6 text-center">	
+					<p> Siguenos en nuestras redes</p>
+					<div class="logos">
+						<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.facebook.com/cyntia.gisel/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+						<a href="https://ar.pinterest.com/pin/633387426764465/" target="_blank"><i class="fab fa-pinterest-square" ></i></a>
+					</div>
 				</div>
-				<div class="nosotros">
+			  </div>
+			  <div class="row">
+				<div class="col-12 text-center">
 						<a href="Contacto.html"><p>TRABAJA CON NOSOTROS</p></a>
 				</div>
-				<div class="derechos">
+			  </div>
+			  <div class="row">
+				<div class="col-12 text-center">
 					<p><small>Beber con moderaciòn. Prohibida su venta a menores de 18 años <br>Diseñado por .....</small></p>
 				</div>
+			  </div>
 			</div>		
-		</footer>
+</footer>
 
-		<script src="js/wow.min.js"></script>
-		<script>
-			new WOW().init();
-		</script>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+</script>
+
+<!--Fin del body-->
 	</body>
 </html>

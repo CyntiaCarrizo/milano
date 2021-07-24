@@ -1,277 +1,430 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Condiment&family=Dynalight&family=Fontdiner+Swanky&family=Molle:ital@1&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/styles_.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Milano Cheers & Beers</title>
+
+	<style>
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		  }
+		</style>
 </head>
 
  <!--menu cuenta extra-->
 
 <body > 
-
-	<div class="contenedor"> 
-		<header>
-					<ul class="menu1">
-						<li><a href=""><img src="imagenes/combos/iconos/location-outline.svg" alt="logo" class="iconos"> Sucursales</a></li>
-						<li><a href=""><img src="imagenes/combos/iconos/call-outline.svg" alt="logo" class="iconos"> 03815864875</a></li>
-						<li><a href=""><img src="imagenes/combos/iconos/logo-whatsapp.svg" alt="logo" class="iconos"> 03815964857</a></li>
-						<li><a href=""><img src="imagenes/combos/iconos/chatbubble-ellipses-outline.svg" alt="logo" class="iconos"> Atencion al Cliente</a></li>
-					</ul>
-				
-					<ul class="cuentas">
-						<li><a href="CrearCuenta.html" >Crear Cuenta</a></li>
-						<li><a href="#" >Iniciar Sesiòn</a></li>
-					</ul>
-
-					<ul class="titulo">
-						<li><img src="imagenes/logoo.jpg" alt="logo" width="250" height="250" ></li>
-						<li><h1>Milano <br>Cheers & Beers</h1></li>
-					</ul>
-
-						
-		</header>
-
-	<!--menu navegacion-->
-
-			<nav>
-				<div class="navegacion">
-					<ul class="nav">
-						<li><a href="index.html" >Inicio</a></li>
-						<li><a href="producto.html" >Productos</a></li>
-						<li><a href="Contacto.html" >Compras Mayoristas</a></li>
-					</ul>
-					<ul class="nav">
-						<li><a href="" > Buscar</a></li>
-						<li><a href="" >Mi Carrito</a></li>
-					</ul>	
-				</div>	
-			</nav>
-
-
-<!--Seccion sleider-->	
-
-<section>
-
-	<div class="banner">
-		<ul>
-			<li><img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos... (3).png" alt=""></li>
-			<li><img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos....png" alt=""></li>
-			<li><img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos... (1).png" alt=""></li>
+ <!--=========================================================================-->
+            <!--MENU HEADER-->   
+     <!--==========================================================================-->       
+ 
+   
+     <header class="container-fluid">
+		<div class="row">
+		  <div class="  d-flex justify-content-center bg-warning">
 			
-		</ul>
-	</div>
-</section>
+				  <div class=" col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono fas fa-map-marker-alt"> Sucursales</i></a>
+				  </div>
+				  <div class="col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class=" menu1__icono fas fa-phone"> 03815864875</i></a>
+				  </div>
+				  <div class=" col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono fab fa-whatsapp"> 03815964857</i></a>
+				  </div>
+				  <div class="col p-2 menu1">
+					  <a href="#" class="menu1__enlace"><i class="menu1__icono far fa-comment-dots"> At. al Cliente</i></a>
+				  </div>
+		  </div>
+	   </div>
+ 
+		  <div class="container">
+					<div class=" row justify-content-end  ">
+						
+						<div class="col-3 col-sm-3 cuentas ">
+							  <a href="CrearCuenta.html" class="cuentas__enlace">Crear Cuenta</a>
+						</div>
+						<div class="col-3 col-sm-3 cuentas">
+							  <a href="#" class="cuentas__enlace" >Iniciar Sesiòn</a>
+						</div>
+					</div>
+		  </div>
+		  <div class="container-fluid">
+					<div class="row justify-content-start align-items-center">
+						  <div class="col-4">
+							<img src="imagenes/logoo.jpg" alt="logo" width="150" height="150" class="logo2" >
+						  </div> 
+						
+							<div class="col-8">
+							  <h1 class="h1 text-center">Milano <br> <span class="fs-6 text-center"> Cheers & Beers</span></h1>
+							</div>  
+					</div>
+		  </div>          
+</header>
+	  
+<!--=========================================================================-->
+	  <!--BARRA DE NAVEGACION RESPONSIVE -->   
+<!--==========================================================================-->       
+	  <nav class="navbar navbar-expand-lg navbar-light bg-warning mb-2" id="menu">
+		  <div class="container-fluid ">
+			<a class="navbar-brand" href="index.html">Inicio</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					  
+					  <li class="nav-item">
+						  <a class="nav-link" href="producto.html">Productos</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="Contacto.html" tabindex="-1" aria-disabled="true">Compras
+							  Mayoristas</a>
+					  </li>
+				  </ul>
+				  <form class="d-flex">
+					  <input class="form-control me-2" type="search" placeholder="Nombre Producto"
+						  aria-label="Search">
+					  <button class="btn " type="submit">Buscar</button>
+				  </form>
+				  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i
+						  class="fas fa-shopping-cart"></i> Mi Carrito</a>
+
+			  </div>
+		  </div>
+	  </nav>
+<!--Seccion sleider-->	
+      <!--=========================================================================-->
+            <!--CARROUSEL-->   
+     <!--==========================================================================-->       
+     <main>
+		<div class="grid">
+			<div class="row">
+			  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos... (3).png" alt="Sistema Solar">
+					</div>
+					<div class="carousel-item">
+					  <img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos....png" alt="Planeta">
+					</div>
+					<div class="carousel-item">
+					  <img src="imagenes/combos/SLEIDER/Ser el que siempre lleva el vino a una cena con amigos... (3).png" alt="Ingreso a planeta">
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Anterior</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Siguiente</span>
+				  </button>
+				</div>
+			</div>
+</main>
+
+
+
+<!--=========================================================================-->
+            <!--SECCION DESTACADOS DEL MES  -->   
+     <!--==========================================================================-->    
+	 <section>
+		<div class="row d-flex justify-content-center">
+		  <div class="col-12 d-flex justify-content-center bg-warning">
+			<h2>Productos</h2>
+		  </div>
+		</div>
 
 <!--Seccion Productos Ventas-->
 
-		<h2>Productos</h2>
+<h2>Productos</h2>
 
-			<table>
-				<tr>
-					<td>Categorias</td>
-					<td>Ordenar por:</td>
-				</tr>
-				<tr>
-					<td>
-						<form id="productos.html" action="productos.php">
-					<select name="productos">
-						<option>Cervezas</option>
-						<option>Vinos</option>
-						<option>Energizantes</option>
-						<option>Wiskys</option>
-						<option>Màs combos</option>
-					</select>
-						</form>	
-					</td>	
-					<td >
-						<form id="productos.html" action="productos.php">
-					<select name="productos">
-						<option>Màs Vendidos</option>
-						<option>Precio: Mayor a Menor</option>
-						<option>Precio: Menor a Mayor</option>
-					</select>
-						</form>
-					</td>
-				</tr>
-			</table>
+<table>
+	<tr>
+		<td>Categorias</td>
+		<td>Ordenar por:</td>
+	</tr>
+	<tr>
+		<td>
+			<form id="productos.html" action="productos.php">
+		<select name="productos">
+			<option>Cervezas</option>
+			<option>Vinos</option>
+			<option>Energizantes</option>
+			<option>Wiskys</option>
+			<option>Màs combos</option>
+		</select>
+			</form>	
+		</td>	
+		<td >
+			<form id="productos.html" action="productos.php">
+		<select name="productos">
+			<option>Màs Vendidos</option>
+			<option>Precio: Mayor a Menor</option>
+			<option>Precio: Menor a Mayor</option>
+		</select>
+			</form>
+		</td>
+	</tr>
+</table>
 
-<section>
 
-	<div class="Ventas">
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/brahma.png" alt="brahma"><figcaption>Brahma lata 473ml <br>pack x 6 un <br>$500</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+
+	<div class="container">
+	  <div class="row d-flex justify-content-around ">
+		<div class="col m-2 ">
+		<div class="  card  " >
+		  <img src="imagenes/Diseño sin título (2).png" class="card-img-top " alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/patagonia.jpg" alt="lata"><figcaption>Patagonia Kune lata 473ml <br>Pack x 6 un <br>$600</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/imperialgolden.jpg" alt="lata"><figcaption>Imperial Golden lata 473ml <br>Pack x 6 un <br>$530</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+	<div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (15).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/imperialipa.jpg" alt="lata"><figcaption>Imperial Ipa lata 473ml <br>Pack x 6 un <br>$690</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/imperialapa.jpg" alt="lata"><figcaption>Imperial Apa lata 473ml <br>Pack x 6 un <br>$700</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/schneider.jpg" alt="lata"><figcaption>Schneider Negra lata 473ml <br>Pack x 6 un <br>$500</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/schneider2.jpg" alt="lata"><figcaption>Schneider lata 473ml <br>Pack x 6 un <br>$500</figcaption><button><a href=""> Agregar al Carrito</a></button>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (3).png" alt=""><figcaption>Manos Negra Sauvignon bLanc <br>750ml <br>$580</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (4).png" alt=""><figcaption>Puna Rosa de Malbec Dulce <br>500ml <br>$640</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+
+ <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (5).png" alt=""><figcaption>Alma Negra Brut Rose <br>750ml <br>$1810</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (6).png" alt=""><figcaption>Veuve Clicquot Brut Gouache <br>750ml <br>$14500</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (7).png" alt=""><figcaption>Puna Malbec <br>750ml <br>$790</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (9).png" alt=""><figcaption>Licor de Anìs 8 Hermanos <br>1000ml <br>$300</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (20).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (10).png" alt=""><figcaption>Gran Alma Negra Espumante <br>1500ml <br>$7590</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+
+	  <div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título.png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (11).png" alt=""><figcaption>Smirnoff Watermelon <br>750ml <br>$710</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
+	  </div>
+
+	<div class="col m-2">
+		<div class=" card" >
+		  <img src="imagenes/Diseño sin título (15).png" class="card-img-top" alt="...">
+		  <div class="card-body">
+			<h3 class="card-title">Card title</h3>
+			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			<a href="#" class="btn ">Agregar al Carrito</a>
+		  </div>
 		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (15).png" alt=""><figcaption>Portillo Chardonna <br>750ml <br>$330</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
-		</div>
-		<div class="ventas">
-			<div class="polaroid">
-				<img src="imagenes/Diseño sin título (13).png" alt=""><figcaption>Trumpeter Malbec <br>750ml <br>$810</figcaption><button><a href=""> Agregar al Carrito</a>
-			</div>
-		</div>
-	</div>
+	  </div>
+
+
+
+ 	</div>
+  </div>
 </section>
 
-<h3>Informaciòn Adicional</h3>
+<!--PAGINACION-->
+<nav aria-label="Page navigation example">
+	<ul class="pagination justify-content-center">
+	  <li class="page-item disabled">
+		<a class="page-link" href="#" tabindex="-1">Previous</a>
+	  </li>
+	  <li class="page-item"><a class="page-link" href="#">1</a></li>
+	  <li class="page-item"><a class="page-link" href="#">2</a></li>
+	  <li class="page-item"><a class="page-link" href="#">3</a></li>
+	  <li class="page-item">
+		<a class="page-link" href="#">Next</a>
+	  </li>
+	</ul>
+  </nav>
 
-	<table class="clasificacion">
-		<tr>
-			<th>Bedidas alcoholicas</th>
-			<th>Volumen de alcohol</th>
-		</tr>
-		<tr>
-			<td>Licor de Absenta</td>
-			<td>70% - 90%</td>
-		</tr>
-		<tr>
-			<td>Ginebra Blanca</td>
-			<td>46,3%</td>
-		</tr>
-		<tr>
-			<td>Wiscky</td>
-			<td>45%</td>
-		</tr>
-		<tr>
-			<td>Fernet</td>
-			<td>40% - 47%</td>
-		</tr>
-		<tr>
-			<td>Vodka</td>
-			<td>40% - 60%</td>
-		</tr>
-		<tr>
-			<td>Brandy</td>
-			<td>36% - 40%</td>
-		</tr>
-		<tr>
-			<td>Tequila</td>
-			<td>38%</td>
-		</tr>
-		<tr>
-			<td>Aguardiente</td>
-			<td>28% - 60%</td>
-		</tr>
-		<tr>
-			<td>Vino Tinto</td>
-			<td>13,5%</td>
-		</tr>
-		<tr>
-			<td>Vino Blanco</td>
-			<td>12,5%</td>
-		</tr>
-		<tr>
-			<td>Cerveza</td>
-			<td>3% - 15%</td>
-		</tr>
-	</table>
-		<br>
-		<br>
-		<br>
 	
 <!--seccion pie de pagina-->
-		<footer>
-			<div class="grid">
-				<div class="news">
-					<p>RECIBI NUESTRAS OFERTAS <br>Suscribite a nuestro Newsletter</p>
-				</div>
-				<div class="pagos">
-					<p>MEDIOS DE PAGO <br>Efectivo, Tarjetas de Crèdito y Dèbito, Codigo QR, Mercado Pago <br>todas las tarjetas hasta 12 cuotas sin intères (depende las promociones de Mercado Pago)</p>
-				</div>	
-				<div class="resdes">	
-					<p> Siguenos en nuestras redes</p></li>
-					<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><img src="imagenes/combos/iconos/logo-twitter.svg" alt="logo" class="logo" ></a>
-					<a href="https://www.facebook.com/cyntia.gisel/" target="_blank" ><img src="imagenes/combos/iconos/logo-facebook.svg" alt="logo" class="logo"></a>
-				</div>
-				<div class="nosotros">
-						<a href="Contacto.html"><p>TRABAJA CON NOSOTROS</p></a>
-				</div>
-				<div class="derechos">
-					<p><small>Beber con moderaciòn. Prohibida su venta a menores de 18 años <br>Diseñado por .....</small></p>
-				</div>
-			</div>		
-		</footer>
-	
+<footer>
+	<div class="row ">
+		<div class="col-12 text-center">
+			<p>RECIBI NUESTRAS OFERTAS <br>Suscribite a nuestro Newsletter</p>
+		</div>
+		<div class="row">
+		<div class="col-6">
+			<p>MEDIOS DE PAGO <br>Efectivo, Tarjetas de Crèdito y Dèbito, Codigo QR, Mercado Pago <br>todas las tarjetas hasta 12 cuotas sin intères (depende las promociones de Mercado Pago)</p>
+		</div>	
+		<div class="col-6 text-center">	
+			<p> Siguenos en nuestras redes</p>
+			<div class="logos">
+				<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.facebook.com/cyntia.gisel/" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/cyntia.gisel/" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+				<a href="https://ar.pinterest.com/pin/633387426764465/" target="_blank"><i class="fab fa-pinterest-square" ></i></a>
+			</div>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-12 text-center">
+				<a href="Contacto.html"><p>TRABAJA CON NOSOTROS</p></a>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-12 text-center">
+			<p><small>Beber con moderaciòn. Prohibida su venta a menores de 18 años <br>Diseñado por .....</small></p>
+		</div>
+	  </div>
+	</div>		
+</footer>
+
+
+	 <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+
+    <!--Fin del body-->
 	</body>
 </html>
