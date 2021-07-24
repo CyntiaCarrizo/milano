@@ -1,0 +1,146 @@
+/*pagina crear cuenta*/
+
+%formulario{
+    background-color: nth($colores, 5);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form .grupo{
+    position: relative;
+    margin: 50px 0;
+
+}
+
+.cuenta {
+color: nth($colores,4);
+font-size: 25px;
+text-align: center;
+margin: 15px 0px;
+font-family: nth($fonts,3);
+}
+
+.grupo input, textarea {
+    border: 1px solid;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: none;
+    color: rgb(5, 5, 5);
+    display: block;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid rgba(94, 93, 93, 0.425);
+    resize: none;
+
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    color: rgba(14, 13, 13, 0.781);
+}
+
+input:focus ~label,
+input:valid ~label,
+textarea:focus ~label {
+    position: absolute;
+    top: -14px;
+    font-size: 20px;
+    color: nth($colores,1);
+}
+
+.labelForm {
+    color: rgb( 94, 93, 93, 0.425);
+    font-size: 16px;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+
+    transition: 0.3s ease all;
+    pointer-events: none;
+    font-family: nth($fonts,5);
+
+}
+
+
+.barra{
+    position: relative;
+    top: -23px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+input:focus~.barra::before{
+    width: 100%;
+}
+.barra::before{
+    content: "";
+    height: 2px;
+    width:0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #f08913e8, #ffe882);
+    transition: 00.3s ease all;
+    left: 0%;
+
+}
+
+.submit {
+    width: 180px;
+    height:35px;
+    border: 1px solid yellow;
+    margin-top:50px;
+    cursor:pointer;	
+    border-radius: 20px;
+    font-family: nth($fonts,3 );
+    background: linear-gradient(to right, #f08913e8, #ffe882);
+}
+
+.check {
+    color:nth($colores,4);
+}
+
+.tituloCuenta {
+    color: nth($colores,1 );
+    background: none;
+    font-family: nth($fonts,3);
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/*pagina contacto*/
+
+
+			
+.formulario  {
+    @extend %formulario;
+    text-align: center;
+    height: 900px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .formulario2{
+   @extend %formulario;
+    height: 800px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+
+ }

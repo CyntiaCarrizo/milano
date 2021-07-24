@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$colores: 
+#F2AC29,
+white,
+#F2E422,
+black,
+cornsilk;
+
+$fonts:
+'Fontdiner Swanky', cursive,
+'Bangers', cursive,
+Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+
+body{
+    background-color: nth($colores, 2 );
+}
+
+
+a{
+    color: nth($colores, 2);
+    text-decoration: none;
+    
+}
+
+%header_enlace{
+    font-size: 10px;
+    font-family: nth($fonts, 3);
+    text-decoration: none;
+}
+
+.cuentas__enlace {
+    @extend %header_enlace;
+    color:nth($colores, 1 );
+    text-shadow: 2px 2px 2px black ;
+
+}
+.cuentas__enlace:hover{
+    color: nth($colores, 1 );
+}
+
+.menu1__enlace {
+	@extend %header_enlace;
+    color: nth($colores, 2);
+  /*  padding: 5px;*/
+ 
+}
+.menu1__enlace:hover {
+    color: nth($colores, 2 );
+   
+}
+
+h1 {
+	color: nth($colores, 1);
+	font-size: 20px !important;
+	font-family: nth($fonts, 1);
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	padding: 0;
+	margin: 0px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.navbar-brand {
+    color: nth($colores, 2); 
+    font-family: nth($fonts,3); 
+}
+
+#menu a {
+    font-family: nth($fonts,3 ) !important;
+    color: nth($colores,2); 
+    text-shadow: 2px 2px 2px black;
+}
+
+#menu button {
+    color: nth($colores,2);
+    font-family: nth($fonts,3 ); 
+    text-shadow: 2px 2px 2px black ;
+}
+.btn {
+    font-size: 13px !important;
+    color: nth($colores,2 );
+    font-family: nth($fonts, 3);
+    text-shadow: 2px 2px 2px black;
+	border-radius: 15px;
+    background-color: nth($colores, 1);
+ 
+}
+
+.btn:hover{
+    color: nth($colores,3);
+}
+
+h2{
+    color: nth($colores,2 );
+    font-family:nth($fonts,1);
+    font-size: 18px !important;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    margin: 2px;
+
+}
+
+.combo{
+        color: nth($colores,4 );
+        font-family:nth($fonts,1);
+        font-size: 18px !important;
+        letter-spacing: 3px;
+        word-spacing: 6px;
+        padding: 10px;
+        margin: 0 50px;
+        background-color: nth($colores,1);
+        width: 100%;
+        text-align: center;
+       
+      
+}
+ 
+

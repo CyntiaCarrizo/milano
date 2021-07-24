@@ -1,344 +1,293 @@
-h1 {
-	color: #F2AC29;
-	font-size: 20px !important;
-	font-family: 'Fontdiner Swanky', cursive;
-	letter-spacing: 5px;
-	word-spacing: 10px;
-	padding: 0;
-	margin: 0px;
-	text-shadow: 2px 2px 2px black ;
-	
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-a{text-decoration: none;}
-.menu1__enlace {
-	text-decoration: none;
-    color: white;
-    font-family: 'Bangers', cursive; 
-    font-size: 10px;
-  /*  padding: 5px;*/
- 
+body {
+  background-color: white;
 }
-.menu1__enlace:hover {
-  
-    color: white;
-   
+
+a {
+  color: white;
+  text-decoration: none;
 }
+
+.menu1__enlace, .cuentas__enlace {
+  font-size: 10px;
+  font-family: "Bangers";
+  text-decoration: none;
+}
+
 .cuentas__enlace {
-    text-shadow: 2px 2px 2px black;
-    color:#F2AC29;
-    font-family: 'Bangers', cursive;
-    font-size: 10px;
-    text-decoration: none;
+  color: #F2AC29;
+  text-shadow: 2px 2px 2px black;
 }
-.cuentas__enlace:hover{
-    color: #F2AC29;
+
+.cuentas__enlace:hover {
+  color: #F2AC29;
+}
+
+.menu1__enlace {
+  color: white;
+  /*  padding: 5px;*/
+}
+
+.menu1__enlace:hover {
+  color: white;
+}
+
+h1 {
+  color: #F2AC29;
+  font-size: 20px !important;
+  font-family: "Fontdiner Swanky";
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  padding: 0;
+  margin: 0px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .navbar-brand {
-    color: white; 
-    font-family: 'Bangers', cursive; 
+  color: white;
+  font-family: "Bangers";
 }
 
 #menu a {
-    font-family: 'Bangers', cursive !important;
-    color: white; 
-    text-shadow: 2px 2px 2px black ;
+  font-family: "Bangers" !important;
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 #menu button {
-    color: white;
-    font-family: 'Bangers', cursive; 
-    text-shadow: 2px 2px 2px black ;
-}
-.btn {
-    font-size: 13px !important;
-    color: white;
-    font-family: 'Bangers', cursive; 
-    text-shadow: 2px 2px 2px black ;
-	border-radius: 15px;
-    background-color: #F2AC29;
-  
-  
+  color: white;
+  font-family: "Bangers";
+  text-shadow: 2px 2px 2px black;
 }
 
-.btn:hover{
-    color:  #F2E422;
+.btn {
+  font-size: 13px !important;
+  color: white;
+  font-family: "Bangers";
+  text-shadow: 2px 2px 2px black;
+  border-radius: 15px;
+  background-color: #F2AC29;
+}
+
+.btn:hover {
+  color: #F2E422;
 }
 
 h2 {
-    color: white;
-    font-family: 'Fontdiner Swanky', cursive;
-     font-size: 18px !important;
-    letter-spacing: 3px;
-    word-spacing: 6px;
-    margin: 2px;
-  
+  color: white;
+  font-family: "Fontdiner Swanky";
+  font-size: 18px !important;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  margin: 2px;
 }
 
-
-
-.card-text{
-    text-align: center;
-	line-height: 10px;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-     font-weight: bold;
-      color: black;
+.combo {
+  color: black;
+  font-family: "Fontdiner Swanky";
+  font-size: 18px !important;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  padding: 10px;
+  margin: 0 50px;
+  background-color: #F2AC29;
+  width: 100%;
+  text-align: center;
 }
 
-p{
-  
-        color: white;
-        font-size: 10px;
-        font-family: 'Bangers', cursive;
-        margin: 5px 0px;
-        padding: 10px;
-        letter-spacing: 2px;
-        word-spacing: 3px;
-      
+section {
+  width: 100%;
 }
-
-.card-body{
-    text-align: center;
-
+section .card-body {
+  text-align: center;
+}
+section .card-body h3 {
+  color: black;
+  font-family: "Fontdiner Swanky";
+  font-size: 18px !important;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  margin: 2px;
+}
+section .card-body h3 p {
+  text-align: center;
+  line-height: 10px;
+  font-family: "Bangers";
+  font-weight: bold;
+  color: black;
+}
+section .card-body h3 a {
+  font-size: 13px !important;
+  color: white;
+  font-family: cursive;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 15px;
+  background-color: #F2AC29;
+}
+section .card-body h3 a:hover {
+  color: #F2E422;
 }
 
 table {
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Bangers', cursive;
-    letter-spacing: 2px;
-    word-spacing: 10px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Bangers";
+  letter-spacing: 2px;
+  word-spacing: 10px;
 }
 
-    footer{
-        background-color: #F2AC29;
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: auto;
-    }
+footer {
+  background-color: #F2AC29;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+footer p {
+  color: white;
+  font-size: 10px;
+  font-family: "Bangers";
+  margin: 5px 0px;
+  padding: 10px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
 
 /*pagina crear cuenta*/
+.formulario2, .formulario {
+  background-color: cornsilk;
+  box-shadow: 5px 5px 5px gray;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-form .grupo{
-    position: relative;
-    margin: 50px 0;
-
+form .grupo {
+  position: relative;
+  margin: 50px 0;
 }
 
 .cuenta {
-color: black;
-font-size: 25px;
-text-align: center;
-margin: 15px 0px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin: 15px 0px;
+  font-family: "Bangers";
 }
 
 .grupo input, textarea {
-    border: 1px solid;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background: none;
-    color: rgb(5, 5, 5);
-    display: block;
-    width: 50%;
-    border: none;
-    border-bottom: 1px solid rgba(94, 93, 93, 0.425);
-    resize: none;
-
+  border: 1px solid;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: none;
+  color: #050505;
+  display: block;
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid rgba(94, 93, 93, 0.425);
+  resize: none;
 }
 
 input:focus, textarea:focus {
-    outline: none;
-    color: rgba(14, 13, 13, 0.781);
+  outline: none;
+  color: rgba(14, 13, 13, 0.781);
 }
 
-input:focus ~label,
-input:valid ~label,
-textarea:focus ~label {
-    position: absolute;
-    top: -14px;
-    font-size: 20px;
-    color: #F2AC29;
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label {
+  position: absolute;
+  top: -14px;
+  font-size: 20px;
+  color: #F2AC29;
 }
 
 .labelForm {
-    color: rgb( 94, 93, 93, 0.425);
-    font-size: 16px;
-    position: absolute;
-    left: 120px;
-    top: 0px;
-
-    transition: 0.3s ease all;
-    pointer-events: none;
-    font-family: Arial, Helvetica, sans-serif;
-
+  color: rgba(94, 93, 93, 0.425);
+  font-size: 16px;
+  position: absolute;
+  left: 120px;
+  top: 0px;
+  transition: 0.3s ease all;
+  pointer-events: none;
+  font-family: Arial;
 }
 
-
-.barra{
-    position: relative;
-    top: -23px;
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-
-
+.barra {
+  position: relative;
+  top: -23px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-input:focus~.barra::before{
-    width: 100%;
+input:focus ~ .barra::before {
+  width: 100%;
 }
-.barra::before{
-    content: "";
-    height: 2px;
-    width:0;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(to right, #f08913e8, #ffe882);
-    transition: 00.3s ease all;
-    left: 0%;
 
+.barra::before {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #f08913e8, #ffe882);
+  transition: 0.3s ease all;
+  left: 0%;
 }
 
 .submit {
-    width: 180px;
-    height:35px;
-    border: 1px solid yellow;
-    margin-top:50px;
-    cursor:pointer;	
-    border-radius: 20px;
-    font-family: 'Bangers', cursive;
-    background: linear-gradient(to right, #f08913e8, #ffe882);
+  width: 180px;
+  height: 35px;
+  border: 1px solid yellow;
+  margin-top: 50px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: "Bangers";
+  background: linear-gradient(to right, #f08913e8, #ffe882);
 }
 
 .check {
-    color: black;
+  color: black;
 }
 
 .tituloCuenta {
-    color: #F2AC29;
-    background: none;
-    font-family: 'Bangers', cursive;
-    text-shadow: 2px 2px 2px black;
-    font-size: 30px;
-    text-align: center;
-
+  color: #F2AC29;
+  background: none;
+  font-family: "Bangers";
+  text-shadow: 2px 2px 2px black;
+  font-size: 30px;
+  text-align: center;
 }
-
 
 /*pagina contacto*/
-
-
-			
-.formulario  {
-    background: cornsilk;
-    text-align: center;
-    height: 900px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 20px;
-    margin: 20px;
-    margin-right: auto;
-    margin-left: auto;
- }
-
- .formulario2{
-    background: cornsilk;
-/*	text-align: center;*/
-    height: 800px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 20px;
-    margin: 20px;
-    margin-right: auto;
-    margin-left: auto;
-
- }
-
-
-
-    @media only screen and (min-width:576px){
-        
-        h1{font-size: 35px !important;}
-        .menu1 a{
-            font-size: 15px !important;
-        }
-        .cuentas a{
-            font-size: 15px !important;
-        }
-
-     
-    }
-
-    @media only screen and (min-width:768px){
-        h1{font-size: 40px !important;}
-        .menu1 a{
-            font-size: 20px !important;
-        }
-        .cuentas a{
-            font-size: 20px !important;
-        }
-        .logo2{
-            width: 200px;
-            height: auto;
-        }
-
-   .nav-link{
-       font-size: 20px !important;
-   }
-   #menu button {
-    font-size: 20px !important;
-}
-.btn {
-    font-size: 18px !important;
-    
-  
-}
-h2 {
-   
-     font-size: 25px !important;
-    
-  
+.formulario {
+  text-align: center;
+  height: 900px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h3 {
-    font-size: 20px !important;
+.formulario2 {
+  height: 800px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-p{
-  
-    
-    font-size: 15px !important;
-    line-height: 15px;
-    
-  
-}
-
-.card-text{
-   font-size: 15px;
-	line-height: 10px;
-			
-}
-    }
-    @media only screen and (min-width:992px){
-        body{
-            background-color: chartreuse;
-        }
-    }
+/*# sourceMappingURL=styles_.css.map */

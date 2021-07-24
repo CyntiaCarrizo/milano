@@ -1,0 +1,20 @@
+footer{
+    background-color:nth($colores,1);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: auto;
+    
+    p{
+  
+        color: nth($colores,2);
+        font-size: 10px;
+        font-family:nth($fonts,3);
+        margin: 5px 0px;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+      
+    }
+
+}
+
