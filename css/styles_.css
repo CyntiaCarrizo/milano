@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*LISTAS*/
 body {
   background-color: white;
 }
@@ -14,14 +15,13 @@ a {
 }
 
 .menu1__enlace, .cuentas__enlace {
-  font-size: 10px;
+  font-size: 18px;
   font-family: "Bangers";
   text-decoration: none;
 }
 
 .cuentas__enlace {
   color: #F2AC29;
-  text-shadow: 2px 2px 2px black;
 }
 
 .cuentas__enlace:hover {
@@ -100,6 +100,7 @@ h2 {
   text-align: center;
 }
 
+/*ANIDAMIENTO*/
 section {
   width: 100%;
 }
@@ -108,8 +109,8 @@ section .card-body {
 }
 section .card-body h3 {
   color: black;
-  font-family: "Fontdiner Swanky";
-  font-size: 18px !important;
+  font-family: "Bangers";
+  font-size: 15px !important;
   letter-spacing: 3px;
   word-spacing: 6px;
   margin: 2px;
@@ -159,6 +160,7 @@ footer p {
   word-spacing: 3px;
 }
 
+/*EXTENDS*/
 /*pagina crear cuenta*/
 .formulario2, .formulario {
   background-color: cornsilk;
@@ -169,6 +171,8 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form .grupo {
@@ -279,15 +283,11 @@ input:focus ~ .barra::before {
   text-align: center;
   height: 900px;
   width: 500px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .formulario2 {
   height: 800px;
   width: 400px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /*# sourceMappingURL=styles_.css.map */

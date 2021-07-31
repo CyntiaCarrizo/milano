@@ -3,18 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+                    /*LISTAS*/
 $colores: 
 #F2AC29,
 white,
 #F2E422,
 black,
-cornsilk;
+cornsilk,
+#023660;
 
 $fonts:
 'Fontdiner Swanky', cursive,
 'Bangers', cursive,
 Arial, "Helvetica Neue", Helvetica, sans-serif;
+
 
 
 
@@ -30,7 +32,7 @@ a{
 }
 
 %header_enlace{
-    font-size: 10px;
+    font-size: 18px;
     font-family: nth($fonts, 3);
     text-decoration: none;
 }
@@ -38,7 +40,7 @@ a{
 .cuentas__enlace {
     @extend %header_enlace;
     color:nth($colores, 1 );
-    text-shadow: 2px 2px 2px black ;
+
 
 }
 .cuentas__enlace:hover{
@@ -58,6 +60,7 @@ a{
 
 h1 {
 	color: nth($colores, 1);
+  
 	font-size: 20px !important;
 	font-family: nth($fonts, 1);
 	letter-spacing: 5px;

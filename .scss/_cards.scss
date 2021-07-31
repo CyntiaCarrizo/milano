@@ -1,10 +1,13 @@
+
+/*ANIDAMIENTO*/
+
 section{
     width: 100%;
     .card-body{
         text-align: center;
             h3 { color: nth($colores,4 );
-                font-family:nth($fonts,1);
-                font-size: 18px !important;
+                font-family:nth($fonts,3);
+                font-size: 15px !important;
                 letter-spacing: 3px;
                 word-spacing: 6px;
                 margin: 2px;
